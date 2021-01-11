@@ -94,15 +94,4 @@ untuk di masukan dalam sebuah list KeranjangBelanja. Dan tampilan Total dari sem
                 controller.deleteSelectedItem(item);
             }
         }
-
-        private void listBoxPakaiVoucher_ItemClicked(object sender, MouseButtonEventArgs e)
-        {
-            if (MessageBox.Show("Kamu ingin membatalkan voucher ini?",
-                   "Konfirmasi", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
-            {
-                ListBox listBox = sender as ListBox;
-                Voucher item = listBox.SelectedItem as Voucher;
-                controller.deleteSelectedVoucher(item);
-            }
-        }
 ```
