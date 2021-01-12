@@ -1,3 +1,6 @@
+NAMA : M.FITRATUL IMAN
+NIM  : 19.11.2809
+KELAS : 19 IF 04
 # STUDIKASUSPROMOS 
 Aplikasi ini bertujuan seperti simulasi pembelian makanan dan minuman dengan menggunakan promo/voucher.
 
